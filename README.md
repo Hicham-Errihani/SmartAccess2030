@@ -69,11 +69,44 @@ SmartAccess2030/
 └── README.md               📝 Documentation principale
 
 
-## 🚀 Installation
+---
+
+---
+
+## ⚙️ Installation & Lancement du Projet
+
+> 🚀 Le projet peut être lancé en **local (Python)** ou via **Docker Compose**.  
+> Voici les instructions pour les deux méthodes.
+
+---
+
+### 🔧 Prérequis
+
+- ✅ Python 3.10 ou supérieur
+- ✅ pip installé
+- ✅ git installé
+- 🐳 (optionnel) Docker & Docker Compose
+
+---
+
+### 🐍 Installation locale (avec environnement virtuel Python)
 
 ```bash
-git clone https://github.com/<ton_user>/SmartAccess2030.git
+# 1. Cloner le dépôt
+git clone git@github.com:Hicham-Errihani/SmartAccess2030.git
 cd SmartAccess2030
+
+# 2. Créer un environnement virtuel
 python3 -m venv env
-source env/bin/activate
+
+# 3. Activer l’environnement
+source env/bin/activate       # Linux/macOS
+# .\env\Scripts\activate       # Windows
+
+# 4. Installer les dépendances
 pip install -r requirements.txt
+
+# 5. Lancer l'application (exemple)
+cd src/
+python app.py
+
