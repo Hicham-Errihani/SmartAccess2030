@@ -12,9 +12,33 @@
 ![Spark](https://img.shields.io/badge/Spark-Streaming-f57c00?style=for-the-badge&logo=apachespark&logoColor=white)
 
 
-# SmartAccess2030
+---
 
-Application intelligente de gestion d’accès industriel : badges, voix, alertes, avec Kafka, Spark, Elasticsearch, IA.
+## 🎯 Présentation du projet
+
+### 🔐 **SmartAccess2030 — Système Intelligent de Contrôle d’Accès pour l’Industrie 4.0**
+
+**SmartAccess2030** est une solution innovante de **contrôle d’accès intelligent** et de **traçabilité en temps réel**, spécialement conçue pour les environnements industriels modernes.
+
+Elle repose sur une architecture technologique combinant **Intelligence Artificielle**, **Big Data**, et **traitement de flux temps réel** afin d’optimiser la sécurité, la supervision et l’efficacité opérationnelle.
+
+---
+
+### 🚀 Fonctionnalités clés :
+
+- 🔐 **Authentification multimodale** : badge, reconnaissance **vocale (Whisper)**, reconnaissance **faciale (OpenCV)**
+- ⚡ **Traitement en temps réel** via **Apache Kafka** et **Spark Streaming**
+- 🔍 **Indexation des événements** dans **Elasticsearch**
+- 📊 **Tableaux de bord dynamiques** avec **Power BI**
+- 🗂️ **Archivage automatisé** des accès et alertes critiques
+
+---
+
+🎯 **Objectif** : offrir une solution complète et intelligente pour **sécuriser, tracer et piloter** les flux d’accès au sein d’une infrastructure industrielle, dans le respect des principes de l’**Industrie 4.0**.
+
+---
+
+
 
 ## 📁 Structure
 - `src/` : Code principal
