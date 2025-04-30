@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/banner.png" alt="SmartAccess2030 Banner" width="700"/>
+</p>
+
 # SmartAccess2030
 
 Application intelligente de gestion d’accès industriel : badges, voix, alertes, avec Kafka, Spark, Elasticsearch, IA.
