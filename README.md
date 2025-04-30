@@ -16,28 +16,30 @@
 
 ## 🎯 Présentation du projet
 
-### 🔐 **SmartAccess2030 — Système Intelligent de Contrôle d’Accès pour l’Industrie 4.0**
+### 🎫 **SmartAccess2030 — Système Intelligent de Gestion des Billets et du Public pour le Mondial 2030**
 
-**SmartAccess2030** est une solution innovante de **contrôle d’accès intelligent** et de **traçabilité en temps réel**, spécialement conçue pour les environnements industriels modernes.
+**SmartAccess2030** est une solution avancée de **gestion sécurisée des accès**, des **billets électroniques** et du **flux de spectateurs** pour les événements à très grande échelle, à commencer par la Coupe du Monde 2030.
 
-Elle repose sur une architecture technologique combinant **Intelligence Artificielle**, **Big Data**, et **traitement de flux temps réel** afin d’optimiser la sécurité, la supervision et l’efficacité opérationnelle.
+Ce système innovant repose sur un pipeline technologique combinant **intelligence artificielle**, **Big Data**, et **traitement en temps réel**, afin d’optimiser la sécurité, l’organisation et l’expérience spectateur.
 
 ---
 
 ### 🚀 Fonctionnalités clés :
 
-- 🔐 **Authentification multimodale** : badge, reconnaissance **vocale (Whisper)**, reconnaissance **faciale (OpenCV)**
-- ⚡ **Traitement en temps réel** via **Apache Kafka** et **Spark Streaming**
-- 🔍 **Indexation des événements** dans **Elasticsearch**
-- 📊 **Tableaux de bord dynamiques** avec **Power BI**
-- 🗂️ **Archivage automatisé** des accès et alertes critiques
+- 🎫 **Vérification rapide des billets numériques** (QR code, NFC, etc.)
+- 🧠 **Reconnaissance faciale et vocale** pour authentification des détenteurs
+- 📡 **Analyse temps réel des flux d’entrées** via **Kafka + Spark Streaming**
+- 🔍 **Suivi des mouvements de foule** dans les stades via **capteurs et IA**
+- 📊 **Tableaux de bord décisionnels** pour les organisateurs et les services de sécurité
+- 📂 **Archivage complet** des sessions, accès, alertes et historiques de fréquentation
 
 ---
 
-🎯 **Objectif** : offrir une solution complète et intelligente pour **sécuriser, tracer et piloter** les flux d’accès au sein d’une infrastructure industrielle, dans le respect des principes de l’**Industrie 4.0**.
+🎯 **Objectif principal** : assurer une gestion fluide, intelligente et ultra-sécurisée du public lors des matchs du **Mondial 2030**, tout en offrant aux organisateurs un outil de **pilotage temps réel**, de **détection de risques** et de **traçabilité complète**.
+
+Ce projet répond aux standards des **grands événements internationaux**, dans une logique de **smart event**, **sécurité de masse**, et **expérience spectateur augmentée**.
 
 ---
-
 
 
 ## 📁 Structure
