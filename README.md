@@ -42,13 +42,32 @@ Ce projet répond aux standards des **grands événements internationaux**, dans
 ---
 
 
-## 📁 Structure
-- `src/` : Code principal
-- `scripts/` : Scripts de lancement
-- `docker/` : Conteneurs Kafka + Elasticsearch
-- `notebooks/` : Analyses exploratoires
-- `data/` : Données brutes et traitées
-- `models/` : Modèles IA (Whisper, etc.)
+---
+
+## 🧱 Structure du projet
+
+Le projet est structuré de manière modulaire, permettant une séparation claire entre les couches de traitement, d'authentification, de monitoring et de visualisation.
+
+```bash
+SmartAccess2030/
+├── src/                  
+│   ├── access_control/     🎟️  Authentification : QR, NFC, visage, voix
+│   ├── ticketing/          🎫  Gestion des billets électroniques
+│   ├── crowd_monitoring/   🧍‍♂️🧍‍♀️  Suivi et détection des foules
+│   └── data_processing/    ⚙️  Nettoyage & transformation des flux de données
+│
+├── docker/                 🐳 Docker Compose (Kafka, Elastic, etc.)
+├── data/                  
+│   ├── raw/                📥 Données brutes (logs, entrées)
+│   └── processed/          📤 Données préparées et enrichies
+│
+├── models/                 🧠 Modèles IA (facial, vocal, prédictions)
+├── notebooks/              📓 Analyses exploratoires en Jupyter
+├── docs/images/            🖼️ Bannières, schémas, captures d'écran
+├── tests/                  ✅ Tests automatisés (API, sécurité, flux)
+├── requirements.txt        📦 Dépendances Python du projet
+└── README.md               📝 Documentation principale
+
 
 ## 🚀 Installation
 
