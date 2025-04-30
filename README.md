@@ -2,6 +2,14 @@
   <img src="docs/images/banner.png" alt="SmartAccess2030 Banner" width="700"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/license/Hicham-Errihani/SmartAccess2030?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/Hicham-Errihani/SmartAccess2030?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/top/Hicham-Errihani/SmartAccess2030?style=flat-square" />
+  <img src="https://img.shields.io/github/repo-size/Hicham-Errihani/SmartAccess2030?style=flat-square" />
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python" />
+</p>
+
 # SmartAccess2030
 
 Application intelligente de gestion d’accès industriel : badges, voix, alertes, avec Kafka, Spark, Elasticsearch, IA.
